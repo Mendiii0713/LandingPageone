@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Rubik Moonrocks', cursive;
+}
+/* First-section */
+.first-section{
+    background: linear-gradient(267.3deg, rgba(15, 15, 15, 0.86) 8.95%, #1F201F 66.31%);
+}.text-color{
+    color: #259C54;
+}
+.fa-solid {
+    font-size: 28px;
+    border: 3px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+}
+.link-custom{
+    text-decoration: none;
+    color: #259C54;
+}
+.link-custom:hover{
+    text-decoration: none;
+    color: white;
+}
+.custom-btn{
+    color: #259C54;
+    border: 1px solid #259C54;
+    padding: 8px 12px;
+    background-color: #1F201F;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+.custom-btn:hover{
+    color: white;
+    padding: 8px 12px;
+    background-color: #259C54;
+    border: 1px solid white;
+    font-weight: 700;
+}
+/* second-section */
+.second-section{
+    background-color:#1A201A;;
+}
+.custom-btn-2{
+    color: white;
+    border: 1px solid white;
+    padding: 8px 12px;
+    background-color: #1F201F;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+.custom-btn-2:hover{
+    color: #259C54;
+    border: 1px solid #259C54;
+    padding: 8px 12px;
+    background-color: white;
+    font-weight: 700;
+}
+/* third-section */
+.third-section{
+    background: linear-gradient(267.3deg, rgba(15, 15, 15, 0.86) 8.95%, #1F201F 66.31%);
+
+}
+.card-bg{
+    background-color: #1A201A;
+}
+/* fourth-section */
+.fourth-section{
+    height: 593px;
+    background-image: url("./img/wallpaperflare.com_wallpaper\ \(10\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* fifth-section */
+.fifth-section {
+    background: #0F0F0F;
+}
+.link-custom-2{
+    text-decoration: none;
+    color: white;
+}
+.link-custom-2:hover{
+    text-decoration: none;
+    color: #259C54;
+}
+.icons{
+    color: white;
+    font-size: 18px;
+}
+.custom-footer{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:450px) {
+    .custom-footer{
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    }
+}
